@@ -10,7 +10,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:4200',
-      'https://currency-server-production.up.railway.app/',
+      'https://currencyconverter1011.netlify.app/',
     ],
     credentials: true,
   });
